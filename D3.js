@@ -242,8 +242,8 @@ for (let i = 0; i < femaleCharacters.length; i++) {
     const charactername = characters[j];
 
     if (femaleCharacter.name === charactername) {
-      characters.indexOf(charactername)
-      characters.splice(characters.indexOf(charactername), 1);
+      
+      characters.splice(j, 1);
       
     }
     
